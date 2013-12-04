@@ -1,5 +1,5 @@
-FlexFSM
-=======
+FlexFSM - A Unity3D Finite State Machine
+========================================
 
 Víctor Barceló - 11/2013 - http://www.victorbarcelo.net
 
