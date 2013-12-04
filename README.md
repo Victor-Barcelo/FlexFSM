@@ -9,7 +9,8 @@ Main differences with the FSM found in the Unity wiki (http://wiki.unity3d.com/i
 - Doesn't make use of explicit transitions in the FSM declaration.
 - Includes blip states, which can be pushed and reverted.
 - Can assign a collection of triggers to states that will execute a predefined method (OnEvent) on the current 
-state. This is used to allow outside communication with the current state by addressing the NotifyEvent method of the FSM. - Allows to define hierarchical FSM's without too much fuss.  
+state. This is used to allow outside communication with the current state by addressing the NotifyEvent method of the FSM.
+- Allows to define hierarchical FSM's without too much fuss.  
 
 Further examples and explanations can be found at http://www.victorbarcelo.net
 
