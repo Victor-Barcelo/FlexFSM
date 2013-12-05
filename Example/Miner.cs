@@ -44,7 +44,7 @@ public class Miner: MonoBehaviour
 
     void Update()
     {
-        if (fsm != null)
+        if (fsm != null && fsm.IsActive())
         {
             fsm.UpdateFSM();
             currentState = fsm.GetCurrentStateName();
