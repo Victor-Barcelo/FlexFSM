@@ -1,11 +1,11 @@
 FlexFSM - A Unity3D Finite State Machine
 ========================================
 
-Víctor Barceló - 11/2013 - http://www.victorbarcelo.net
+Víctor Barceló - 11/2013
 
 Finite State Machine based on the implementation found in Mat Buckland’s book "Programming Game AI by Example".
 
-Main differences with the FSM found in the Unity wiki (http://wiki.unity3d.com/index.php/Finit_State_Machine):
+Main differences with the FSM found in the Unity wiki ( http://wiki.unity3d.com/index.php/Finit_State_Machine ):
 - Doesn't make use of explicit transitions in the FSM declaration.
 - Includes blip states, which can be pushed and reverted.
 - Can assign a collection of triggers to states that will execute a predefined method (OnEvent) on the current 
