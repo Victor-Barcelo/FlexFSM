@@ -34,7 +34,6 @@ public class FlexFSM
     private FlexState previousToBlipState;
     private bool isActive;
     private Dictionary<Enum, FlexState> states;
-    private FlexFSM rootFSM;
 
     public FlexFSM(GameObject _owner)
     {
@@ -48,11 +47,6 @@ public class FlexFSM
     public bool IsActive()
     {
         return isActive;
-    }
-
-    public void SetRootFSM(FlexFSM _fsm)
-    {
-        rootFSM = _fsm;
     }
 
     public void NotifyEvent(Enum eventId, List<object> args)
