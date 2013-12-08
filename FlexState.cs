@@ -5,7 +5,7 @@ using System.Text;
 using UnityEngine;
 
 /**
- * Víctor Barceló - 11/2013 - http://www.victorbarcelo.net
+ * Víctor Barceló - 11/2013 - https://github.com/Victor-Barcelo/FlexFSM
  * 
  * Finite State Machine based on the implementation found in Mat Buckland’s book "Programming Game AI by Example".
  * 
